@@ -49,7 +49,7 @@ function SignIn() {
         <div className="rounded-lg   shadow-2xl h-fit  m-4  w-full md:w-[25rem] p-4 bg-white border border-gray-200 sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
           <div className="mb-6">
             <h2 className="mb-2  text-blue-700 text-2xl  font-semibold text-center">
-              Sign In
+              Sign In 
             </h2>
           </div>
           <div className="px-2 py-2 lg:px-2 ">
