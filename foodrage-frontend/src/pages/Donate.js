@@ -429,14 +429,14 @@ async function handleSubmitDonation(e) {
           )
           // from end
         }
-        {showAddress ? (
+{/*   {showAddress ? (
           <Address
             setData={setPickupAddress}
             data={pickUpAddress}
             setShowAddress={setShowAddress}
             type="ADDRESS"
           />
-        ) : null}
+        ) : null}*/}
       </div>
     </div>
   );
