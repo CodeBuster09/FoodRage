@@ -344,13 +344,13 @@ function DonationInfo({ currentPage, path }) {
         )}
       </div>
 
-      {showAddress ? (
+{/*  {showAddress ? (
         <Address
           setShowAddress={setShowAddress}
           data={donation.pickUpAddress}
           type="DIRECTION"
         />
-      ) : null}
+      ) : null}*/}
     </>
   );
 }
