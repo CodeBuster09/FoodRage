@@ -338,14 +338,14 @@ function Profile() {
               </div>
               {/* cancle  save button  */}
             </form>
-            {showAddress ? (
+{/*{showAddress ? (
               <Address
                 setData={setAddress}
                 data={address}
                 setShowAddress={setShowAddress}
                 type="ADDRESS"
               />
-            ) : null}
+            ) : null}*/}
           </>
         ) : (
           // userInfo
