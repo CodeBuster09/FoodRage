@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.630faee3.css",
+    "main.js": "/static/js/main.9a74b2d9.js",
+    "static/media/Food-Handout.jpg": "/static/media/Food-Handout.3962b549c0061d091d2d.jpg",
+    "static/media/Girl-Food.png": "/static/media/Girl-Food.12fa4a0bd93867318852.png",
+    "static/media/family.png": "/static/media/family.d8df2f609c42e91d00b4.png",
+    "static/media/1.jpg": "/static/media/1.c2b17cbd31e21cf8c57e.jpg",
+    "static/media/icon.jpg": "/static/media/icon.ca7b284a7328495e2e55.jpg",
+    "static/media/ball.web.svg": "/static/media/ball.web.2c21544481f8196c37c9.svg",
+    "static/media/loading.svg": "/static/media/loading.097e9dd8cfb91c1a238921acd22f64ba.svg",
+    "index.html": "/index.html",
+    "main.630faee3.css.map": "/static/css/main.630faee3.css.map",
+    "main.9a74b2d9.js.map": "/static/js/main.9a74b2d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.630faee3.css",
+    "static/js/main.9a74b2d9.js"
+  ]
+}
