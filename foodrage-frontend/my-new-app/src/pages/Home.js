@@ -145,57 +145,6 @@ function Home() {
           </section>
           {/* section three */}
         </div>
-        {/* section four */}
-        <div className="mt-10 mb-20 w-full  flex flex-col gap-8">
-          <marquee
-            className="text-3xl 
-          font-bold"
-            direction="left"
-            behavior="alternate"
-          >
-            Valay Khobragade for &nbsp; &nbsp; Valay Khobragade &nbsp; Valay Khobragade &nbsp;
-            Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade
-            &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp;
-            &nbsp;Valay Khobragade
-
-          </marquee>{" "}
-          <marquee
-            className="text-3xl 
-          font-bold"
-            direction="right"
-            behavior="alternate"
-          >
-            Valay Khobragade for &nbsp; &nbsp; Valay Khobragade &nbsp; Valay Khobragade &nbsp;
-            Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade
-            &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp;
-            &nbsp;Valay Khobragade
-
-          </marquee>{" "}
-          <marquee
-            className="text-3xl 
-          font-bold"
-            direction="left"
-            behavior="alternate"
-          >
-            Valay Khobragade for &nbsp; &nbsp; Valay Khobragade &nbsp; Valay Khobragade &nbsp;
-            Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade
-            &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp;
-            &nbsp;Valay Khobragade
-
-          </marquee>
-          <marquee
-            className="text-3xl 
-          font-bold"
-            direction="right"
-            behavior="alternate"
-          >
-            Valay Khobragade for &nbsp; &nbsp; Valay Khobragade &nbsp; Valay Khobragade &nbsp;
-            Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade
-            &nbsp; &nbsp; Valay Khobragade &nbsp; &nbsp; Valay Khobragade &nbsp;
-            &nbsp;Valay Khobragade
-
-          </marquee>{" "}
-        </div>
         {/* section fout */}
         {/* footer */}
         <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900  w-full flex items-center justify-center">
@@ -211,7 +160,7 @@ function Home() {
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="sm:flex sm:items-center sm:justify-between">
               <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                © 2023{" "}
+                © 2025{" "}
                 <a href="#" className="hover:underline">
                   Food Donation™
                 </a>
@@ -237,7 +186,7 @@ function Home() {
                   <span className="sr-only">Facebook page</span>
                 </a>
                 <a
-                  href="https://www.instagram.com/vaallaay/"
+                  href="https://www.instagram.com/shreyansh_jais15/"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 >
                   <svg
@@ -269,7 +218,7 @@ function Home() {
                   <span className="sr-only">Twitter page</span>
                 </a>
                 <a
-                  href="https://github.com/alphacentauri07"
+                  href="https://github.com/CodeBuster09/FoodRage"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 >
                   <svg

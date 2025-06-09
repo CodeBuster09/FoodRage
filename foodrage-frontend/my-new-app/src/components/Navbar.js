@@ -71,7 +71,7 @@ function Navbar() {
             </svg>
           </button>
           <div className="md:flex md:order-2 items-center  hidden">
-            {/* <DarkModeToggleButton /> */}
+            <DarkModeToggleButton />
             {userLoading ? (
               <div className="flex items-center  space-x-3">
                 <svg
