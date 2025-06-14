@@ -1,57 +1,35 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+
 function DarkModeToggleButton() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // Change the icons inside the button based on previous settings
-    if (
-      "color-theme" in localStorage &&
-      localStorage.getItem("color-theme") === "dark"
-      //   ||
-      // (!("color-theme" in localStorage) &&
-      //   window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
+    const currentTheme = localStorage.getItem("color-theme");
+    if (currentTheme === "dark") {
       setIsDark(true);
-      // document.documentElement.classList.add("dark");
-      document.querySelector(".App").classList.add("dark");
-
-      localStorage.setItem("color-theme", "dark");
     } else {
       setIsDark(false);
-      document.querySelector(".App").classList.remove("dark");
-
-      // document.documentElement.classList.remove("dark");
-      localStorage.setItem("color-theme", "light");
     }
   }, []);
 
   function handleToggle() {
-    // toggle icons inside button
-    setIsDark((preVal) => !preVal);
-    // if set via local storage previously
-    if (
-      "color-theme" in localStorage &&
-      localStorage.getItem("color-theme") === "dark"
-    ) {
-      document.querySelector(".App").classList.remove("dark");
-      // document.documentElement.classList.remove("dark");
+    if (isDark) {
+      document.documentElement.classList.remove("dark");
       localStorage.setItem("color-theme", "light");
+      setIsDark(false);
     } else {
-      // document.documentElement.classList.add("dark");
-      document.querySelector(".App").classList.add("dark");
-
+      document.documentElement.classList.add("dark");
       localStorage.setItem("color-theme", "dark");
+      setIsDark(true);
     }
   }
-  // localStorage.removeItem("color-theme");
 
   return (
     <button
       id="theme-toggle"
       type="button"
-      className="   h-fit mx-4 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
-      onClick={() => handleToggle()}
+      className="h-fit mx-4 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+      onClick={handleToggle}
     >
       {isDark ? (
         <svg
