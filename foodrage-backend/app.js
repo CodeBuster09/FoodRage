@@ -14,7 +14,7 @@ const cors = require("cors");
 app.use(
   cors({
     methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
-    origin: [process.env.CLIENT_URL, "http://localhost:4000"],
+    origin: ["https://foodrage-app-frontend.onrender.com", "http://localhost:4000"],
     credentials: true
   })
 );
